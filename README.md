@@ -25,3 +25,8 @@ How it boots up:
     * AppModule specifies the bootstrap Component = AppComponent
       * The <app-root> selector in index.html is replaced with the template of the AppComponent
   * styles.css is included in ; contains application wide styles 
+
+# Components
+- Markup an exported class with Component decorator. This has 3 attributes - the HTML template, the selector/tag, the styles. 
+- template and styles can be inline or seperate files.
+- Update the angular module's declarations attribute to include the new component class.
