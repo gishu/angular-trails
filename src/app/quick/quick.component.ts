@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'mx-quick',
+  // selector: 'mx-quick',
+  // selector: '.mx-quick',
+  selector: '[mx-quick]',
   template: `
     <h3 style='background:beige; border-style:dotted;'>
       Quick Component - by Angular generators!
