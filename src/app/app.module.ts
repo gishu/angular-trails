@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import { HandRolledComponent } from "./hand-rolled/hand-rolled.component";
 
 @NgModule({
   declarations: [
-    AppComponent
+    HandRolledComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HandRolledComponent]
 })
 export class AppModule { }
