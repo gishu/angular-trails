@@ -30,3 +30,7 @@ How it boots up:
 - Markup an exported class with Component decorator. This has 3 attributes - the HTML template, the selector/tag, the styles. 
 - template and styles can be inline or seperate files.
 - Update the angular module's declarations attribute to include the new component class.
+
+Angular code generators
+
+`ng g[enerate] c[omponent] uber`

@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { HandRolledComponent } from "./hand-rolled/hand-rolled.component";
+import { QuickComponent } from './quick/quick.component';
 
 @NgModule({
   declarations: [
-    HandRolledComponent
+    HandRolledComponent,
+    QuickComponent
   ],
   imports: [
     BrowserModule
