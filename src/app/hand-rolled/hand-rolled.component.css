@@ -8,3 +8,8 @@ div.container {
 h3 {
   color: magenta;
 }
+
+.content-area {
+  background-color: lightcyan;
+  padding: 5px;
+}
