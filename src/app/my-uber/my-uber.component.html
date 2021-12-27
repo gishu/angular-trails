@@ -4,4 +4,13 @@
 
 <hr />
 
-<p mx-quick></p>
+<h3>Angular component Lifecycle Hooks</h3>
+Play with the buttons below to create/destroy components and check the console!
+
+<div>
+  <button (click)="addItem()">Add component</button>
+  <button (click)="removeItem()">Remove component</button>
+</div>
+<mx-lifecycle-demo *ngFor="let item of items" [MyInput]="this.value">
+  <button (click)="updateValue()">Update Value {{ this.value }}</button>
+</mx-lifecycle-demo>
