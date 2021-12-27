@@ -33,4 +33,9 @@ How it boots up:
 
 Angular code generators
 
-`ng g[enerate] c[omponent] uber`
+`ng g[enerate] c[omponent] my-uber`
+
+## View Encapsulation
+By default, Components have ViewEncapsulation.Emulated. This applies a unique attribute to each element in the component's template. e.g. _ngcontent-wpo-c12 and any styles are modified to include this attribute e.g. `p[_ngcontent-wpo-c12]` so the styles only apply within this component.
+
+If you apply ViewEncapsulation.None to a component, then the styles will leak to all other components. Usually not desirable.
