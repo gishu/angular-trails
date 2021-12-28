@@ -1,0 +1,16 @@
+<h3>Data Binding</h3>
+
+<h5>String interpolation</h5>
+
+<p>And the answer is ... {{answer}}</p>
+
+<h5>Property binding</h5>
+
+<input [disabled]='isDisabled' type='text' value='Disabled via prop binding'/>
+
+<h5>Event binding</h5>
+<button (click)='onButtonClick()'>Click me!</button>
+
+<h5>2 way data binding (Note: Include FormsModule)</h5>
+
+<input type='text' [(ngModel)]='answer'/>
